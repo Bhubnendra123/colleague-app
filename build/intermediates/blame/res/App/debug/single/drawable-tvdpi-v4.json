@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-tvdpi-v4/gd_gtwear_confirmation.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-tvdpi-v4/gd_gtwear_confirmation.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-tvdpi-v4/gd_dot_indicator.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-tvdpi-v4/gd_dot_indicator.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-tvdpi-v4/split_billing_black_icon.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-tvdpi-v4/split_billing_black_icon.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-tvdpi-v4/bbd_logo.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-tvdpi-v4/bbd_logo.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-tvdpi-v4/gd_certificate.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-tvdpi-v4/gd_certificate.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-tvdpi-v4/split_billing_notification.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-tvdpi-v4/split_billing_notification.png"
+    }
+]

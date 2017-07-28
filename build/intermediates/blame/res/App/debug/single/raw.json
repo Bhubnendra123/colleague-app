@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_da",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_da"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_pt_pt",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_pt_pt"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_de",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_de"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_nl",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_nl"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_zh_cn",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_zh_cn"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_ja",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_ja"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_pt_br",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_pt_br"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_fr",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_fr"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_it",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_it"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_es",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_es"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/gd_lib_version.txt",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/gd_lib_version.txt"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_ko",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_ko"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_sv",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_sv"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/raw/localizable_strings_en",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/raw/localizable_strings_en"
+    }
+]

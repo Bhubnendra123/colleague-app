@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/src/androidTest/shaders"/></dataSet><dataSet config="App"><source path="/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/src/androidTestApp/shaders"/></dataSet></merger>

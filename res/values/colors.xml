@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This file contains resource definitions for solid colors.  In
+     addition to plain color resources (retrieved via Resources.getColor()
+     and friends), we are also using it to define drawables that are
+     a solid color. -->
+
+<resources>
+    <color name="header_bar_highlight">#75c24d</color>
+    <color name="text_light_green">#56C100</color>
+    <color name="text_dark_green">#00854F</color>
+    <color name="default_press_fill_color">#057938</color>
+    <color name="kirk_bal_green_border">#76B129</color>
+    <color name="globalmenu_sticky_button_color">#e6006a4d</color>
+    <color name="globalmenu_sticky_button_hitstate_color">#ff006a4d</color>
+    <color name="dark_green">#1B7D42</color>
+    <color name="settings_menu_item_title">#00864F</color>
+    <color name="helpcenter_dark_green">#258A2C</color>
+    <color name="tab_selected_underline">#56C200</color>
+    <color name="header_bar_background_gradient_start">#47ad11</color>
+    <color name="header_bar_background_gradient_end">#0f8e42</color>
+    <color name="lloyds_medium_green">#649C00</color>
+    <color name="lloyds_green_core">#006A4D</color>
+    <color name="lloyds_green_bright">#77B800</color>
+    <color name="lloyds_green_bright_inactive">#7FB4A6</color>  <!-- value hardcoded in string res "beneficiary_available" ! -->
+    <color name="lloyds_gradient_top_green_bright">#78B800</color>              <!--bright or chevron -->
+    <color name="lloyds_gradient_bottom_green_bright">#589F00</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="globalmenu_nav_drawer_profile_hitstate_color">#33000000</color>
+    <color name="kirk_bal_red_border">#DB181A</color>
+</resources>

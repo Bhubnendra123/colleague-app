@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/zoom_in.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/res/anim/zoom_in.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/design_fab_out.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_fade_in.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/fadeout.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/anim/fadeout.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_fade_out.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/fadein.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/anim/fadein.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/design_fab_in.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/design/24.0.0/res/anim/design_snackbar_in.xml"
+    }
+]

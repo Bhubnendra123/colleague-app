@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    }
+]

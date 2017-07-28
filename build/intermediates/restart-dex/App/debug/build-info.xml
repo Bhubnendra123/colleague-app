@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="21"
+    density="xhdpi"
+    format="7"
+    timestamp="25740750693451"
+    token="-8579110158534930744" >
+
+    <task
+        name="javac"
+        duration="120" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="5" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/outputs/apk/Skeleton-App-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="25740750693451" >
+        <artifact
+            location="/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/outputs/apk/Skeleton-App-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

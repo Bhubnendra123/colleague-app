@@ -1,0 +1,64 @@
+[
+    {
+        "outputFile": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/androidTest/App/debug/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 327,
+                    "endColumn": 74,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 551,
+                        "endColumn": 74,
+                        "endOffset": 621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 65,
+                    "endOffset": 463
+                },
+                "from": {
+                    "file": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 847,
+                        "endColumn": 65,
+                        "endOffset": 908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 468,
+                    "endColumn": 45,
+                    "endOffset": 509
+                },
+                "from": {
+                    "file": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/com.android.support.test/rules/0.4.1/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 287,
+                        "endColumn": 45,
+                        "endOffset": 328
+                    }
+                }
+            }
+        ]
+    }
+]

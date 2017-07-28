@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_set_password_view.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/layout-large-land-v4/bbd_set_password_view.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/layout-large-land-v4/gde_provision_view.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/layout-large-land-v4/gde_provision_view.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_learn_more_view.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/layout-large-land-v4/bbd_learn_more_view.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_activation_login_view.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/layout-large-land-v4/bbd_activation_login_view.xml"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/layout-large-land-v4/bbd_common_header.xml",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/layout-large-land-v4/bbd_common_header.xml"
+    }
+]

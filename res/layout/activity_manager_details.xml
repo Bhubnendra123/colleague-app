@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/colleague_logo"
+        android:scaleType="fitStart"
+        android:src="@drawable/colleaguedirectoryportrait"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:text="Macdonald, Rory (Group Functions System)"
+        android:textSize="22sp"
+        android:layout_below="@id/colleague_logo"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/text_dark_green"
+        android:layout_marginTop="5dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/title"
+        android:background="@drawable/background_detail"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:id="@+id/name_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:text="@string/nameLabel"
+                    android:id="@+id/name_label"
+                    />
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/name"
+                    />
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:visibility="gone"
+                android:id="@+id/mobile_number_container">
+
+                <TextView
+                    android:id="@+id/mobileNumberLabel"
+                    style="@style/textviewStyle"
+                    android:text="@string/mobile_number_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/mobile_number"
+                    />
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/alt_number_container">
+
+                <TextView
+                    android:id="@+id/atl_contact_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/atl_contact_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/alt_contact_number"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/home_phone_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/home_phone_label"
+                    android:text="@string/home_phone_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/home_phone_number"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/internal_landline_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/internal_landline_label"
+                    android:text="@string/internal_landline_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/internal_landline_number"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/landline_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/landline_label"
+                    android:text="@string/landline_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/landline_number"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_xlarge"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/image_container">
+
+                <TextView
+                    android:id="@+id/image_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/image_label"
+                    />
+
+                <!--<ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="120dp"
+                    android:id="@+id/image"/>-->
+
+                <com.good.gd.example.skeleton.TouchHighlightImageButton
+                    android:id="@+id/image"
+                    android:layout_width="100dp"
+                    android:layout_height="75dp"
+                    android:layout_marginRight="1dp"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="150dp"
+                    />
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <!--<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/expanded_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    />
+            </RelativeLayout>-->
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_xlarge"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/postal_address_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/postal_address_label"
+                    android:text="@string/postal_address_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:onClick="showMap"
+                    android:id="@+id/postal_address"
+                    android:layout_marginRight="5dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/imageIndicator2"
+                    android:src="@drawable/arrow"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    />
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/email_address_container">
+
+                <TextView
+                    android:id="@+id/email_address_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/email_address_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/email_address"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_xlarge"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:clickable="false"
+                android:id="@+id/line_manager_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/line_manager_label"
+                    android:text="@string/line_manager_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/line_manager"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/secretary_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/secretary_label"
+                    android:text="@string/secretary_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/secretary"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/job_title_container">
+
+                <TextView
+                    android:id="@+id/job_title_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/job_title_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/job_title"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/department_container">
+
+                <TextView
+                    android:id="@+id/department_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/department_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/department"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/business_unit_container">
+
+                <TextView
+                    android:id="@+id/business_unit_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/business_unit_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/business_unit"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/division_container">
+
+                <TextView
+                    android:id="@+id/division_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/division_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/division"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/user_id_container">
+
+                <TextView
+                    android:id="@+id/user_id_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/user_id_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/user_id"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/country_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/country_label"
+                    android:text="@string/country_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/country"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/cost_centre_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/cost_centre_label"
+                    android:text="@string/cost_centre_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/cost_centre"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/website_container">
+
+                <TextView
+                    android:id="@+id/wensite_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/wensite_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/website"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/additional_location_container">
+
+                <TextView
+                    style="@style/textviewStyle"
+                    android:id="@+id/additional_location_label"
+                    android:text="@string/additional_location_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/additional_location"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/axis_group_container">
+
+                <TextView
+                    android:id="@+id/axis_group_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/axis_group_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/axis_group"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/gap_large"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:id="@+id/mwot_group_container">
+
+                <TextView
+                    android:id="@+id/mwot_label"
+                    style="@style/textviewStyle"
+                    android:text="@string/mwot_label"/>
+
+                <TextView
+                    style="@style/textviewStyle2"
+                    android:id="@+id/mwot_group"/>
+
+                <!-- Separator line -->
+                <View style="@style/separatorLineThin3"
+                    android:layout_alignParentBottom="true"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/expanded_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

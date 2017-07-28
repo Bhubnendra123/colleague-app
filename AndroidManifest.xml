@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.good.gd.example.skeleton"
+          android:versionCode="4"
+          android:versionName="1.4.0.0">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+            android:name=".ColleagueDirectoryApplication"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.GDSampleAppTheme"
+            android:icon="@drawable/logo"
+            android:allowBackup="true"
+            android:fullBackupContent="@xml/gd_backup_scheme">
+
+
+        <activity
+                android:name="com.good.gd.example.skeleton.Skeleton"
+                android:enabled="true"
+                android:alwaysRetainTaskState="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.gd.example.skeleton.SettingsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.gd.example.skeleton.ThirdActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.gd.example.skeleton.ColleagueDetailsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.good.gd.example.skeleton.ColleagueManagerDetailsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="GDApplicationVersion"
+            android:value ="1.0.0.0" />
+    </application>
+</manifest>

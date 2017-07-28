@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.GDSampleAppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/Theme.GDSampleAppTheme.ActionBar</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="Theme.GDSampleAppTheme.ActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/lloyds_medium_green</item>
+        <item name="android:backgroundStacked">@color/lloyds_medium_green</item>
+        <item name="android:backgroundSplit">@color/lloyds_medium_green</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:titleTextStyle">@style/Theme.GDSampleAppTheme.ActionBar.Title</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="Theme.GDSampleAppTheme.ActionBar.Title" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="separatorLineThin" parent="@style/separatorLineWithMargins">
+        <item name="android:background">@color/lloyds_medium_green</item>
+        <item name="android:layout_height">@dimen/separator_height_thin</item>
+    </style>
+
+    <style name="separatorLineThin2" parent="@style/separatorLineWithMargins">
+        <item name="android:background">@color/globalmenu_nav_drawer_profile_hitstate_color</item>
+        <item name="android:layout_height">@dimen/separator_height_thin</item>
+    </style>
+
+    <style name="separatorLineThin3" parent="@style/separatorLineWithMargins2">
+        <item name="android:background">@color/lloyds_medium_green</item>
+        <item name="android:layout_height">@dimen/separator_height_thin</item>
+    </style>
+
+    <style name="separatorLineWithMargins">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/settings_highlight_gap_topbottom</item>
+        <item name="android:layout_marginBottom">@dimen/settings_highlight_gap_topbottom</item>
+        <item name="android:layout_marginLeft">@dimen/gap_normal</item>
+        <item name="android:layout_marginRight">@dimen/gap_normal</item>
+    </style>
+
+    <style name="separatorLineWithMargins2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/settings_highlight_gap_topbottom</item>
+        <item name="android:layout_marginBottom">@dimen/settings_highlight_gap_topbottom</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="textviewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_dark_green</item>
+    </style>
+
+    <style name="textviewStyle2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_marginLeft">150dp</item>
+    </style>
+</resources>

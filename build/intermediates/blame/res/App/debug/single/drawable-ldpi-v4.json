@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_gtwear_confirmation.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_gtwear_confirmation.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/bbd_logo_tablet.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/bbd_logo_tablet.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/split_billing_notification.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/split_billing_notification.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_icon_splash_lock.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_icon_splash_lock.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_sb_tutorial_not_covered.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_sb_tutorial_not_covered.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/progress_bar_inner.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/progress_bar_inner.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/res/drawable-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_dot_indicator.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_dot_indicator.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_sb_tutorial_covered.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_sb_tutorial_covered.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_sb_tutorial_covered_magnifier.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_sb_tutorial_covered_magnifier.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/progress_bar_outer.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/progress_bar_outer.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/com_bbd_default_logo.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/com_bbd_default_logo.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/bbd_logo.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/bbd_logo.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/secured_bbd_logo_phone.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/secured_bbd_logo_phone.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/split_billing_black_icon.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/split_billing_black_icon.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/bbd_logo_phone.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/bbd_logo_phone.png"
+    },
+    {
+        "merged": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/res/merged/App/debug/drawable-ldpi-v4/gd_certificate.png",
+        "source": "/Users/developer01/Library/Android/sdk/extras/good/dynamics_sdk/samples/Skeleton/build/intermediates/exploded-aar/Skeleton/GDLibrary/unspecified/res/drawable-ldpi-v4/gd_certificate.png"
+    }
+]

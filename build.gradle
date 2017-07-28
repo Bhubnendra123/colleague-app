@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+
+
+buildscript {
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+    }
+
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+}
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "23.0.3"
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+
+        androidTest {
+            manifest.srcFile 'tests/AndroidManifest.xml'
+            java.srcDirs = ['tests']
+            // Include Android Test Support Library source and assets in test code
+            // automated_test_support_library_path is set in gradle.properties file
+            java.srcDirs += [automated_test_support_library_path + '/src']
+            java.srcDirs += [automated_test_support_library_path + '/src-handheld']
+            assets.srcDirs = [automated_test_support_library_path + '/assets']
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.lloydsbanking.colleaguedirectory"
+        targetSdkVersion 24
+    }
+
+    // When Building in Test configuration for Automated Test we need to set min API level as 18 for UI Automator
+    defaultPublishConfig "AppDebug"
+    publishNonDefault true
+    testBuildType "debug"
+
+    productFlavors {
+
+        App {
+            minSdkVersion 14
+        }
+
+        AppTest {
+            minSdkVersion 18
+            testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':GDLibrary')
+    compile project(':GDLibrary_BackupSupport')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:support-annotations:24.2.1'
+    compile 'com.android.support:design:24.0.0'
+    compile 'com.android.volley:volley:1.0.0'
+    //Test Compile Dependancies are used only when building app for android Automated Tests
+    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.1'
+    androidTestCompile 'com.android.support:support-annotations:24.2.1'
+    androidTestCompile 'com.android.support.test:rules:0.4'
+    androidTestCompile 'com.android.support.test:runner:0.4'
+    androidTestCompile 'com.android.support.test.uiautomator:uiautomator-v18:2.0.0'
+    androidTestCompile 'com.android.support:support-v4:24.2.1'
+}
+
+

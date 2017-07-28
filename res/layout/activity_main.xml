@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/colleague_logo"
+        android:scaleType="fitStart"
+        android:src="@drawable/colleaguedirectoryportrait"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_container"
+        android:layout_below="@id/colleague_logo">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="gone"
+            android:id="@+id/search_disable_container">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:id="@+id/search_bar_disabled"
+                style="@style/Widget.AppCompat.EditText"
+                android:background="@drawable/background2"
+                android:cursorVisible="false"
+                />
+
+            <ImageView
+                android:id="@+id/search_button_disabled"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search3"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/search_bar_disabled"
+                android:layout_alignBottom="@+id/search_bar_disabled"
+                android:layout_centerInParent="true"
+                />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background2"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/search_enable_container"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/searchImage"
+                android:src="@drawable/search3"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/search_edit_text"
+                android:singleLine="true"
+                android:layout_toRightOf="@id/searchImage"
+                />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:id="@+id/search_cancel"
+                android:layout_gravity="end"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/close3"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_category_container"
+        android:layout_below="@id/search_container"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_toggle"
+            android:layout_marginTop="20dp"
+            android:checked="true"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_category_text"
+            android:layout_toRightOf="@id/search_toggle"
+            android:text="@string/search_match_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_enable_text"
+            android:layout_below="@id/search_category_text"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:textColor="@color/bbd_fingerprint_status_error"
+            android:text="@string/settings_error_text"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_category_container">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_result_error"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/progressbar_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+            <ProgressBar
+                style="?android:attr/progressBarStyle"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/progress_background"
+                />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/listview_container"
+        android:layout_below="@id/search_category_container"
+        android:layout_marginTop="20dp">
+
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/colleagueListView"></ListView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/divider_layout"
+        android:layout_below="@id/search_category_container"
+        android:layout_marginTop="30dp"
+        android:visibility="gone">
+
+        <!-- Separator line -->
+        <View style="@style/separatorLineThin2"
+            android:id="@+id/view1"
+            />
+
+        <!-- Separator line -->
+        <View style="@style/separatorLineThin2"
+            android:id="@+id/view2"
+            android:layout_below="@+id/view1"
+            android:layout_marginTop="50dp"
+            />
+
+        <!-- Separator line -->
+        <View style="@style/separatorLineThin2"
+            android:id="@+id/view3"
+            android:layout_below="@+id/view2"
+            android:layout_marginTop="50dp"
+            />
+
+        <!-- Separator line -->
+        <View style="@style/separatorLineThin2"
+            android:id="@+id/view4"
+            android:layout_below="@+id/view3"
+            android:layout_marginTop="50dp"
+            />
+
+        <!-- Separator line -->
+        <View style="@style/separatorLineThin2"
+            android:id="@+id/view5"
+            android:layout_below="@+id/view4"
+            android:layout_marginTop="50dp"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

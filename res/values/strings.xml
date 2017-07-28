@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- This file contains resource definitions for displayed strings, allowing
+     them to be changed based on the locale and options. -->
+
+<resources>
+    <!-- Simple strings. -->
+    <string name="app_name">Colleague Directory</string>
+    <string name="settings">SETTINGS</string>
+    <string name="title">COLLEAGUE</string>
+    <string name="title2">DIRECTORY</string>
+    <string name="title_caption">connecting colleagues</string>
+    <string name="username_label">User name</string>
+    <string name="password_label">Password</string>
+    <string name="validate_button">Validate</string>
+    <string name="domain_name">GLOBAL\\</string>
+    <string name="save_button">Save</string>
+    <string name="validation_failed">Authentication failed, please re-enter credentials and validate again.</string>
+    <string name="user_error_text">Enter a new user name and/or password, if required.</string>
+    <string name="settings_error_text">Please enter your username and password via the "Settings" section above to enable search.</string>
+    <string name="search_match_text">Search for exact matches only. If you untick this box, the directory will conduct a wider search that also includes words that are spelt or sound similar.</string>
+    <string name="details_failed_error">There is some problem. Please try again</string>
+
+    <string name="search_exact">&amp;exact=true</string>
+    <string name="search_not_exact">&amp;exact=false</string>
+
+    <string name="nameLabel">Name :</string>
+    <string name="atl_contact_label">Alt Contact No. :</string>
+    <string name="home_phone_label">Home Phone :</string>
+    <string name="internal_landline_label">Internal Landline :</string>
+    <string name="landline_label">Landline :</string>
+    <string name="image_label">Picture :</string>
+    <string name="postal_address_label">Postal Address :</string>
+    <string name="email_address_label">Email Address :</string>
+    <string name="line_manager_label">Line Manager :</string>
+    <string name="secretary_label">Secretary/PA :</string>
+    <string name="country_label">Country :</string>
+    <string name="cost_centre_label">Cost Centre :</string>
+    <string name="job_title_label">Job Title :</string>
+    <string name="department_label">Department :</string>
+    <string name="additional_location_label">Addtnl Location :</string>
+    <string name="axis_group_label">AXIS Group</string>
+    <string name="mwot_label">MWOT Group :</string>
+    <string name="business_unit_label">Business Unit :</string>
+    <string name="division_label">Division :</string>
+    <string name="user_id_label">User ID:</string>
+    <string name="wensite_label">Web site :</string>
+    <string name="mobile_number_label">Mobile :</string>
+
+
+    <string name="action_cancel">Cancel</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_ok">OK</string>
+    <string name="action_okay">Okay</string>
+    <string name="action_try_again">Try Again</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_yes">Yes</string>
+    <string name="action_no">No</string>
+    <string name="action_next">Next</string>
+    <string name="action_back">Back</string>
+    <string name="action_go">Go</string>
+    <string name="action_prev_month">Previous Month Button</string>
+    <string name="action_next_month">Next Month Button</string>
+    <string name="action_save">Save</string>
+    <string name="action_logoff">Log off</string>
+    <string name="action_done">Done</string>
+    <string name="action_select">OK</string>
+    <string name="action_pay_credit_card">Pay credit card</string>
+
+    <string name="bad_request_error_text"></string>
+
+    <string name="base_url">http://colleaguedirectory.intranet.group/Pages/PeopleResults.aspx?k=</string>
+    <string name="base_url2">http://colleaguedirectory.intranet.group</string>
+
+
+
+    <string name="ok">OK</string>
+    <string name="back">Back</string>
+    <string name="show_camera">Show camera preview</string>
+    <string name="show_contacts">Show and add contacts</string>
+    <string name="main_introduction">Click the buttons below to show a camera preview or access the contacts database.\nNote that the contacts option is only available on Android M to illustrate the use of optional, M-only permissions that are not requested on lower SDK platforms.</string>
+    <string name="permision_available_call">Call Permission has been granted.</string>
+    <string name="permision_available_contacts">Contacts Permissions have been granted. Contacts screen can now be opened.</string>
+    <string name="permissions_not_granted">Permission was not granted.</string>
+    <string name="permission_call_rationale">Call permission is needed to make a call.</string>
+    <string name="permission_contacts_rationale">Contacts permissions are needed to demonstrate access.</string>
+
+
+</resources>
+

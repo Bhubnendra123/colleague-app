@@ -1,0 +1,4 @@
+include 'GDLibrary'
+project(':GDLibrary').projectDir = new File('../../libs/handheld/gd')
+include 'GDLibrary_BackupSupport'
+project(':GDLibrary_BackupSupport').projectDir = new File('../../libs/handheld/gd_backup_support')
